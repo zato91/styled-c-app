@@ -7,10 +7,8 @@ import Home from '../components/pages/Home';
 
 const GlobalStyle = createGlobalStyle`
 	body{
-	
 		min-height: 100vh;
 		margin: 0;
-	
 		font-family: 'Kaushan Script'
 	}
 `;
@@ -26,8 +24,11 @@ function App() {
 					</Route>
 					<Route path="/">
 						<Home />
+					
+				
 					</Route>
 				</Switch>
+				
 			</BrowserRouter>
 	</>
   );
